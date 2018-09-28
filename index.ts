@@ -314,3 +314,5 @@ export function pathToRegexp (path: Path, keys?: Key[], options?: RegExpOptions 
 
   return stringToRegexp((path), keys, options)
 }
+
+export default pathToRegexp
